@@ -148,6 +148,10 @@ nav
   text-transform: uppercase
   color: #ffffff
   text-align: center
+  &_white
+    background-color: #ffffff
+    color: #000000
+    z-index: 2
   
 		
 
@@ -171,6 +175,7 @@ nav
   color: #222222
   margin-top: 19px
   text-align: center
+  border: none
   &_white
     color: #ffffff
     z-index: 2 
@@ -276,6 +281,21 @@ nav
         &::after, &::before
           background-color: $second-color
           
+
+.lable_btn_white
+  position: relative
+  display: block
+  margin: 0 auto
+  width: 112px
+  height: 24px
+  background-color: #ffffff
+  font-size: 11px
+  font-weight: 300
+  text-transform: uppercase
+  color: #070716
+  z-index: 2  
+  border: none
+  
 .car
   min-height: 896px;
   padding: 57px 0 138px 0
@@ -285,19 +305,7 @@ nav
     z-index: 2
     display: block
     margin: 56px auto 0 auto
-    position: relative
-  .lable_btn_white
-    position: relative
-    display: block
-    margin: 0 auto
-    width: 112px
-    height: 24px
-    background-color: #ffffff
-    font-size: 11px
-    font-weight: 300
-    text-transform: uppercase
-    color: #070716
-    z-index: 2  
+    position: relative  
   .black
     position: absolute
     top: 0
@@ -353,7 +361,127 @@ nav
       li
         &::before
           background: url('../icons/checkMarkRed.png') center (center / cover) no-repeat
+.world
+  padding: 49px 0 49px 0
+  background: url('../img/bgFinalSection.jpg') center (center / cover) no-repeat
+  &_text
+    margin-top: 486px
+    font-size: 15px
+    font-weight: 400
+    text-transform: uppercase
+    color: $main-color
+    text-align: center
+.footer
+  padding: 14px 0 31px 0
+  &_line
+    margin: 0 auto
+    width: 299px
+    height: 4px
+    background-color: #1fbad6
+  &_menu
+    margin: 0 auto
+    margin-top: 35px
+    width: 364px
+    display: flex
+    justify-content: space-between
+    &_second
+      width: 390px
+      margin-top: 15px
+  &_menu_item_one
+    font-size: 15px
+    font-weight: 300
+    text-transform: uppercase
+    color: #070716
+  &_menu_item_second
+    font-family: Roboto
+    font-size: 11px
+    font-weight: 300
+    text-transform: uppercase
+    color: #999999
+  &_language
+    display: block
+    margin-top: 19px
+    text-align: center
+    font-size: 11px
+    font-weight: 400
+    text-transform: uppercase
+    color: #1fbad6
+.final
+  width: 1920px
+  height: 8px
+  background-color: #070716
+footer
+  padding: 14px 23px 39px 23px
+  a
+    &:hover
+      text-decoration: none
+.footer
+  &_divider
+    width: 299px
+    height: 4px
+    background-color: #1fbad6
+    margin: 0 auto
+  &_wrapper
+    display: flex
+    justify-content: space-between
+    align-items: flex-start
+    padding-top: 32px
+  &_wrapper > div
+    width: 33%
+    &:nth-child(3)
+      display: flex
+      justify-content: flex-end
+  &_social
+    width: 160px
+    display: flex
+    justify-content: space-between
+    &_item
+      display: flex
+      justify-content: center
+      align-items: center
+      margin: 0 4px
+      width: 32px
+      height: 32px
+      background-color: #070716
+      border-radius: 100%
+      i
+        color:#fff
+  &_links
+    width: 390px
+    margin: 0 auto
+    &_main
+      display: flex
+      justify-content: space-between
+      padding: 0 10px
+      a
+        color:#070716
+        font-size: 15px
+        font-weight: 300
+        text-transform: uppercase
+    &_sub
+      display: flex
+      justify-content: space-between
+      margin-top: 16px
+      a
+        color:#999999
+        font-size: 11px
+        font-weight: 300
+        text-transform: uppercase
+    &_lang
+      display: block 
+      margin: 0 auto
+      color: #1fbad6
+      font-size: 11px
+      font-weight: 400
+      margin-top: 19px
+      text-transform: uppercase
+      text-align: center
+  &_mobile
+
+
       
+
+
   
     
 
